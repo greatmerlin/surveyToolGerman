@@ -5,7 +5,7 @@ Es gibt drei Optionen, um die Answerium-Applikation zu starten:
 – https://answerium.ch  
 
 # Virtual Machine (VM)  
-## Voraussetzungen  
+## Voraussetzungen ## 
 – Eine Applikation, die VM-Images ausführen kann, wie die Oracle VM VirtualBox (https://www.virtualbox .org /)  
 Wir haben eine VM vorbereitet, in der die Applikation bereits läuft:  
 – Das Answerium-Image.ova finden Sie auf dem beiligenden Dateiträger oder kann unter http://bit.ly/answerium heruntergeladen  werden.  
