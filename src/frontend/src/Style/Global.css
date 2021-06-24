@@ -1,0 +1,72 @@
+/**
+ * Global
+ */
+
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(76, 216, 255, 0.8),
+      rgba(30, 108, 217, 0.8)
+    ),
+    url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/love-and-passion-background-backgrounds-romantic-1-5c9b994d38556.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 10rem;
+}
+
+/**
+ * TYPOGRAPHY
+ */
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+}
+
+/**
+ * LAYOUT
+ */
+
+.vertical-stack > * + * {
+  margin-top: 2rem;
+}
+
+/**
+ * EVALUATE PAGE
+ */
+
+.bar-chart {
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  bottom: 1rem;
+  background-color: var(--warning);
+  background: linear-gradient(90deg, var(--white) 0%, var(--warning) 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+
+  animation-name: chart;
+  animation-delay: 250ms;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes chart {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
